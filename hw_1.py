@@ -29,7 +29,7 @@ class Student(Person):
         print("Оценки:")
         for subject, mark in self.marks.items():
             print(f"{subject}: {mark}")
-        print(f"Средняя оценка: {self.calculate_average():.2f}\n")
+        print(f"Средняя оценка: {self.calculate_average():}\n")
 
 
 

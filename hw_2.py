@@ -1,5 +1,6 @@
 class Figure:
-    unit = "cm"
+    unit= "cm"
+
 
     def __init__(self):
         pass
@@ -41,3 +42,9 @@ figures = [
     Rectangle(9, 3),
     Rectangle(6, 4)
 ]
+
+
+
+for figure in figures:
+    figure.info()
+
